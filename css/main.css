@@ -1,0 +1,67 @@
+* {
+    background-color: black;
+}
+
+a {
+    color: #FFF;
+    text-align: center;
+    font-family: Anta;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 40px;
+    text-decoration: none;
+}
+
+img {
+    width: 1920px;
+    height: 1080px;
+}
+
+.nav_bar {
+    width: 1180px;
+    margin: 0 370px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.nav_topper {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Anta;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.apple_button {
+    width: 54px;
+    height: 24px;
+    display: inline-flex;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    background: #1371FF;
+}
+
+.apple_text {
+    color: #FFF;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.apple_button a {
+    margin: 0 -40px;
+}
