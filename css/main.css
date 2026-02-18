@@ -14,6 +14,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    color: #FFF;
+}
+
 img {
     width: 1920px;
     height: 1080px;
@@ -68,4 +72,62 @@ img {
 
 .apple_button a {
     margin: 0 -40px;
+}
+
+.main {
+    background-image: url("../img/background.png");
+    width: auto;
+    height: 381px;
+    padding: 369px 0 330px 0;
+}
+
+.title {
+    margin: 0;
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Anta;
+    font-size: 128px;
+    font-style: normal;
+    line-height: normal;
+    background-color: transparent;
+}
+
+.title_text {
+    margin: 14px 0 0 0;
+    color: #D7D7D7;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.title_buttons {
+    margin-top: 65px;
+    display: flex;
+    justify-self: center;
+    gap: 29px;
+}
+
+.title_button {
+    display: flex;
+    width: 200px;
+    height: 72px;
+    /* padding: 16px 50px; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background: #1179E8;
+}
+
+.title_button a {
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 25px;
+    font-style: normal;
+    line-height: var(--H4-line-height, 40px);
+    background: #1371FF;
 }
