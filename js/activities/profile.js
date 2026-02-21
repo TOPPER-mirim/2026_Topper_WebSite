@@ -2,10 +2,8 @@ function loadAll() {
   fetch('../json/activities/profile/index.json')
     .then(res => res.json())
     .then(list => {
-      const peopleBox = document.getElementById('people_list');
-      const awardBox = document.getElementById('award_container');
+      const profilediv = document.getElementById('profile');
 
-      let peopleHTML = '';
       let awardHTML = '';
 
       for (let i = 0; i < list.length; i++) {
@@ -29,11 +27,9 @@ function loadAll() {
             groupHTML += `</div>`;
 
             awardHTML += groupHTML;
-            awardBox.innerHTML = awardHTML;
+            profilediv.innerHTML = awardHTML;
           });
       }
-
-      peopleBox.innerHTML = peopleHTML;
     });
 }
 
