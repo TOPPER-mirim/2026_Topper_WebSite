@@ -1,0 +1,55 @@
+.frame {
+    margin: 0 369px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s_title {
+    color: #FFF;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+.prj_img {
+    margin-bottom: 32px;
+    margin-top: 120px;
+    height: 450px;
+    align-self: stretch;
+}
+
+.prj_name {
+    color: #FFF;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: var(--H2-size, 39px);
+    font-style: normal;
+    font-weight: 600;
+    line-height: var(--H2-line-height, 62px);
+    /* 158.974% */
+    margin: 0;
+}
+
+.prj_ex {
+    color: #FFF;
+    justify-self: center;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: var(--H5-size, 20px);
+    font-style: normal;
+    font-weight: 500;
+    line-height: var(--H5-line-height, 32px);
+    /* 160% */
+    margin: 0;
+}
+
+.box {
+    width: 100%;
+    height: 153px;
+}
