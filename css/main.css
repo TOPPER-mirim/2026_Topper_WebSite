@@ -121,7 +121,7 @@ p {
 }
 
 .title_buttons {
-    margin-top: 65px;
+    margin-top: 35px;
     display: flex;
     justify-self: center;
     gap: 29px;
@@ -135,16 +135,26 @@ p {
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-    background: #1179E8;
 }
 
-.title_button a {
+.title_buttons a {
     margin: 0;
+    background: #000;
+    border: #959595 solid 3px;
+    border-radius: 15px;
+}
+
+.title_button p {
     color: #FFF;
     text-align: center;
     font-family: Pretendard;
     font-size: 25px;
     font-style: normal;
+    border-radius: 15px;
     line-height: var(--H4-line-height, 40px);
-    background: #1371FF;
+    margin: 0;
+}
+
+.title_button:hover {
+    cursor: pointer;
 }
