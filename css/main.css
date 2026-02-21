@@ -40,6 +40,7 @@ p {
 }
 
 .apple_button {
+    margin: 0px;
     width: 54px;
     height: 24px;
     display: inline-flex;
@@ -67,6 +68,10 @@ p {
 
 .apple_button a {
     margin: 0 -40px;
+}
+
+.apple_button:hover {
+    cursor: pointer;
 }
 
 .main {
