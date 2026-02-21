@@ -9,7 +9,7 @@ fetch("../json/activities/project.json")
 
       card.innerHTML = `
         <div class="prj_img">
-          <img src="../img/${item.img}" alt="${item.name}">
+          <img src="../img/${item.img}" alt="${item.name}" style="width: 1162px">
         </div>
         <div class="project_info">
           <p class="prj_name">${item.name}</p>
