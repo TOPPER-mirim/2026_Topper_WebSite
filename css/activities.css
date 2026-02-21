@@ -1,62 +1,20 @@
+.s_title,
+.prj_name,
+.prj_ex,
+.p_name,
+.p_award {
+    color: #FFF;
+    font-family: Pretendard;
+    font-style: normal;
+    margin: 0;
+}
+
 .frame {
     margin: 0 369px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.s_title {
-    color: #FFF;
-    text-align: center;
-    font-family: Pretendard;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin: 0;
-}
-
-.prj_img {
-    margin-bottom: 32px;
-    margin-top: 120px;
-    height: 450px;
-    align-self: stretch;
-}
-
-.prj_name {
-    color: #FFF;
-    text-align: center;
-    font-family: Pretendard;
-    font-size: var(--H2-size, 39px);
-    font-style: normal;
-    font-weight: 600;
-    line-height: var(--H2-line-height, 62px);
-    /* 158.974% */
-    margin: 0;
-}
-
-.prj_ex {
-    color: #FFF;
-    justify-self: center;
-    text-align: center;
-    font-family: Pretendard;
-    font-size: var(--H5-size, 20px);
-    font-style: normal;
-    font-weight: 500;
-    line-height: var(--H5-line-height, 32px);
-    /* 160% */
-    margin: 0;
-}
-
-.box1 {
-    width: 100%;
-    height: 153px;
-}
-
-.box2 {
-    width: 100px;
-    height: 498px;
 }
 
 .p_div {
@@ -69,26 +27,49 @@
     align-self: stretch;
 }
 
-.p_name {
-    color: #FFF;
+.box1 { width: 100%; height: 153px; }
+.box2 { width: 100%; height: 498px; }
+
+.s_title {
     text-align: center;
-    font-family: Pretendard;
-    font-size: 24px;
-    font-style: normal;
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.prj_img {
+    margin-bottom: 32px;
+    margin-top: 120px;
+    height: 450px;
+    align-self: stretch;
+}
+
+.prj_name {
+    text-align: center;
+    font-size: var(--H2-size, 39px);
     font-weight: 600;
-    line-height: normal;
-    margin: 0 0 4px 0;
+    line-height: var(--H2-line-height, 62px);
+}
+
+.prj_ex {
+    justify-self: center;
+    text-align: center;
+    font-size: var(--H5-size, 20px);
+    font-weight: 500;
+    line-height: var(--H5-line-height, 32px);
+}
+
+.p_name {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 4px;
 }
 
 .p_award {
     align-self: stretch;
-    color: #FFF;
     text-align: center;
-    font-family: Pretendard;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     row-gap: 20px;
-    /* 120% */
 }
