@@ -96,6 +96,19 @@ p {
     background-color: transparent;
 }
 
+.title_sub {
+    width: 296px;
+    color: #FFF;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    justify-self: center;
+    margin: 0;
+}
+
 .title_text {
     margin: 14px 0 0 0;
     color: #D7D7D7;
