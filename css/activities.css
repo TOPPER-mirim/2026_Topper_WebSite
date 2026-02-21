@@ -53,3 +53,38 @@
     width: 100%;
     height: 153px;
 }
+
+.p_div {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.p_name {
+    color: #FFF;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0 0 4px 0;
+}
+
+.p_award {
+    align-self: stretch;
+    color: #FFF;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    row-gap: 20px;
+    /* 120% */
+}
+
+.p_award p + p {
+  margin-top: 16px;
+}

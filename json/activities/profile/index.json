@@ -2,36 +2,36 @@
   {
     "id": 1,
     "name": "단체",
-    "path": "./people/p1.json"
+    "path": "../json/activities/profile/people/p1.json"
   },
   {
     "id": 2,
     "name": "4기 노윤서",
-    "path": "./people/p2.json"
+    "path": "../json/activities/profile/people/p2.json"
   },
   {
     "id": 3,
     "name": "4기 오세영",
-    "path": "./people/p3.json"
+    "path": "../json/activities/profile/people/p3.json"
   },
   {
     "id": 4,
     "name": "4기 조유진",
-    "path": "./people/p4.json"
+    "path": "../json/activities/profile/people/p4.json"
   },
   {
     "id": 5,
     "name": "4기 홍재나",
-    "path": "./people/p5.json"
+    "path": "../json/activities/profile/people/p5.json"
   },
   {
     "id": 6,
     "name": "4기 조은지",
-    "path": "./people/p6.json"
+    "path": "../json/activities/profile/people/p6.json"
   },
   {
     "id": 7,
     "name": "4기 최서현",
-    "path": "./people/p7.json"
+    "path": "../json/activities/profile/people/p7.json"
   }
 ]
