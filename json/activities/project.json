@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "DU!NUT",
+    "ex": "학교 지도 위에 ‘지금 나의 상태'와 ‘의도'를 남기는 실시간 커뮤니티를 제공하는 서비스",
+    "img": "prj_DOUNT.png"
+  },
+  {
+    "id": 2,
+    "name": "Privasee",
+    "ex": "AI가 SNS 게시물을 분석하여 개인 정보 노출 점수를 메기고 위험 정도를 분석 및 피드백해주는 서비스",
+    "img": "prj_Privasee.png"
+  },
+  {
+    "id": 3,
+    "name": "PakuCat",
+    "ex": "물불게임(Fireboy and Watergirl)을 오마주한 2인용 고양이 협동 점프 게임",
+    "img": "prj_PakuCat.png"
+  },
+  {
+    "id": 4,
+    "name": "Mirim Card",
+    "ex": "FIFA 게임의 카드 디자인을 오마주하여 만든 우리 학교 학생들의 카드 뽑기",
+    "img": "prj_MirimCard.png"
+  }
+]
