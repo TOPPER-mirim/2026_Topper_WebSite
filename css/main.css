@@ -77,6 +77,14 @@ p {
     height: 381px;
 }
 
+.main_sub {
+    background-image: url("../img/background_sub.png");
+    width: auto;
+    height: 381px;
+    padding: 369px 0 330px 0;
+    height: 381px;
+}
+
 .title {
     margin: 0;
     text-align: center;
