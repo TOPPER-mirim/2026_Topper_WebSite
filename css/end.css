@@ -3,13 +3,18 @@
 /* 엔드 카드 배경 및 형식? */
 .end_div {
     display: flex;
-    width: 1181px;
-    height: 505px;
-    padding: 100px 370px 74px 369px;
-    justify-content: center;
+    width: 100%;
+    min-height: 505px;
+    height: auto;
+    padding: clamp(40px, 7vw, 100px) clamp(20px, 8vw, 370px) clamp(30px, 5vw, 74px) clamp(20px, 8vw, 369px);
+    justify-content: space-between;
     flex-shrink: 0;
     background-image: url("../img/background_end.png");
-    justify-content: space-between;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 /* 엔드 카드 Topper 문구 */
@@ -18,7 +23,7 @@
     color: #FFF;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Anta;
-    font-size: 64px;
+    font-size: clamp(32px, 5vw, 64px);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -32,7 +37,7 @@
     color: #D7D7D7;
     text-align: left;
     font-family: Pretendard;
-    font-size: 24px;
+    font-size: clamp(14px, 2vw, 24px);
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -42,10 +47,10 @@
 
 /* 바로가기들 묶음 div 스타일 */
 .end_as {
-    margin: 42px 0;
+    margin: clamp(20px, 3vw, 42px) 0;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: clamp(8px, 1.2vw, 15px);
 }
 
 /* 바로가기 텍스트 스타일 */
@@ -54,14 +59,14 @@
     color: #D7D7D7;
     text-align: center;
     font-family: Anta;
-    font-size: 24px;
+    font-size: clamp(16px, 2vw, 24px);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     color: #D7D7D7;
     font-family: Anta;
     display: inline-block;
-    width: 107px;
+    width: auto;
     margin: 0;
     text-align: left;
     background-color: transparent;
@@ -69,10 +74,10 @@
 
 /* 바로가기 아래 텍스트 */
 .end_text_2 {
-    margin: 116px 0 0 0;
+    margin: clamp(40px, 8vw, 116px) 0 0 0;
     color: #959595;
     font-family: Pretendard;
-    font-size: 21px;
+    font-size: clamp(14px, 1.7vw, 21px);
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -81,8 +86,8 @@
 
 /* 엔드 카드 우측에 버튼 div */
 .box3 {
-    width: 184px;
-    height: 61px;
+    width: clamp(120px, 14vw, 184px);
+    height: clamp(44px, 5vw, 61px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,7 +102,7 @@
     color: #FFF;
     text-align: center;
     font-family: Pretendard;
-    font-size: 18px;
+    font-size: clamp(13px, 1.4vw, 18px);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
