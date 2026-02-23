@@ -8,11 +8,11 @@ a {
     color: #FFF;
     text-align: center;
     font-family: Anta;
-    font-size: clamp(16px, 2vw, 24px);
+    font-size: clamp(11px, 1.25vw, 24px);  
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin: 0 clamp(16px, 3vw, 40px);
+    margin: 0 clamp(6px, 2.08vw, 40px);
     text-decoration: none;
 }
 
@@ -22,14 +22,13 @@ p {
 
 /* 상단 바 */
 .nav_bar {
-    width: min(1180px, 90vw);
+    width: clamp(320px, 61.46vw, 1180px);
     margin: 0 auto;
     display: flex;
     justify-self: center;
     align-items: center;
     justify-content: center;
-    gap: clamp(20px, 5vw, 80px);
-    flex-wrap: wrap;
+    gap: clamp(16px, 4.17vw, 80px);      
 }
 
 /* 상단 바 - 토퍼 문구 */
@@ -38,7 +37,7 @@ p {
     text-align: center;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Anta;
-    font-size: clamp(20px, 2.5vw, 32px);
+    font-size: clamp(14px, 1.67vw, 32px);  
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -47,20 +46,21 @@ p {
 /* 상단 바에 apply 버튼 */
 .apply_button {
     margin: 0px;
-    width: auto;
-    height: auto;
+    width: clamp(36px, 2.81vw, 54px);    
+    height: clamp(16px, 1.25vw, 24px);   
     display: inline-flex;
-    padding: clamp(12px, 1.5vw, 20px) clamp(20px, 3vw, 40px);
+    padding: clamp(10px, 1.04vw, 20px) clamp(16px, 2.08vw, 40px); 
     justify-content: center;
     align-items: center;
     gap: 10px;
-    border-radius: 15px;
+    border-radius: clamp(8px, 0.78vw, 15px);
     background: #1371FF;
 }
 
 .apply_button a {
     margin: 0;
     background: #1371FF;
+    font-size: clamp(11px, 1.25vw, 24px);
 }
 
 .apply_button:hover {
@@ -73,9 +73,8 @@ p {
     background-size: cover;
     background-position: center;
     width: auto;
-    padding: clamp(120px, 25vw, 369px) 0 clamp(100px, 20vw, 330px) 0;
-    min-height: 381px;
-    height: auto;
+    padding: clamp(80px, 19.22vw, 369px) 0 clamp(70px, 17.19vw, 330px) 0; 
+    height: clamp(140px, 19.84vw, 381px); 
 }
 
 /* 메인 화면 - 부원 소개, 활동 내역, Q&A 배경 */
@@ -84,9 +83,8 @@ p {
     background-size: cover;
     background-position: center;
     width: auto;
-    padding: clamp(120px, 25vw, 369px) 0 clamp(100px, 20vw, 330px) 0;
-    min-height: 381px;
-    height: auto;
+    padding: clamp(80px, 19.22vw, 369px) 0 clamp(70px, 17.19vw, 330px) 0;
+    height: clamp(140px, 19.84vw, 381px);
 }
 
 /* index 파일 TOPPER 타이틀 문구 스타일 */
@@ -95,7 +93,7 @@ p {
     text-align: center;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Anta;
-    font-size: clamp(48px, 10vw, 128px);
+    font-size: clamp(28px, 6.67vw, 128px);  
     font-style: normal;
     line-height: normal;
     background-color: transparent;
@@ -103,11 +101,11 @@ p {
 
 /* 부원 소개, 활동 내역, Q&A 타이틀 문구 스타일 */
 .title_sub {
-    width: auto;
+    width: clamp(110px, 15.42vw, 296px);   
     color: #FFF;
     text-align: center;
     font-family: Pretendard;
-    font-size: clamp(40px, 6vw, 80px);
+    font-size: clamp(22px, 4.17vw, 80px); 
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -117,50 +115,49 @@ p {
 
 /* 타이틀 밑 텍스트 스타일 */
 .title_text {
-    margin: 14px 0 0 0;
+    margin: clamp(6px, 0.73vw, 14px) 0 0 0; 
     color: #D7D7D7;
     text-align: center;
     font-family: Pretendard;
-    font-size: clamp(14px, 2vw, 24px);
+    font-size: clamp(11px, 1.25vw, 24px);   
     font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
 
-
 /* index 파일 메인 화면에 있는 버튼들 */
 .title_buttons {
-    margin-top: 35px;
+    margin-top: clamp(20px, 1.82vw, 35px);  
     display: flex;
     justify-self: center;
-    gap: clamp(12px, 2vw, 29px);
+    gap: clamp(10px, 1.51vw, 29px);         
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .title_button {
     display: flex;
-    width: clamp(120px, 15vw, 200px);
-    height: clamp(48px, 6vw, 72px);
+    width: clamp(96px, 10.42vw, 200px);    
+    height: clamp(38px, 3.75vw, 72px);    
     justify-content: center;
     align-items: center;
-    border-radius: 15px;
+    border-radius: clamp(8px, 0.78vw, 15px);
 }
 
 .title_buttons a {
     margin: 0;
     background: #000;
     border: #959595 solid 3px;
-    border-radius: 15px;
+    border-radius: clamp(8px, 0.78vw, 15px);
 }
 
 .title_button p {
     color: #FFF;
     text-align: center;
     font-family: Pretendard;
-    font-size: clamp(16px, 2vw, 25px);
+    font-size: clamp(12px, 1.30vw, 25px);  
     font-style: normal;
-    border-radius: 15px;
+    border-radius: clamp(8px, 0.78vw, 15px);
     line-height: var(--H4-line-height, 40px);
     margin: 0;
 }
