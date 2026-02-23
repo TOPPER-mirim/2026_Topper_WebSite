@@ -1,3 +1,6 @@
+/* 엔드 카드 */
+
+/* 엔드 카드 배경 및 형식? */
 .end_div {
     display: flex;
     width: 1181px;
@@ -9,6 +12,8 @@
     justify-content: space-between;
 }
 
+/* 엔드 카드 Topper 문구 */
+/* (폰트 적용 문제로 이미지로 넣을려다가 그냥 p태그를 사용하게 되어 스타일 이름이 이럼. */
 .end_img {
     color: #FFF;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -22,6 +27,7 @@
     background-color: transparent;
 }
 
+/* Topper 문구 바로 아래 텍스트 */
 .end_text_1 {
     color: #D7D7D7;
     text-align: left;
@@ -34,6 +40,7 @@
     background-color: transparent;
 }
 
+/* 바로가기들 묶음 div 스타일 */
 .end_as {
     margin: 42px 0;
     display: flex;
@@ -41,6 +48,7 @@
     gap: 15px;
 }
 
+/* 바로가기 텍스트 스타일 */
 .end_a {
     align-self: stretch;
     color: #D7D7D7;
@@ -59,6 +67,7 @@
     background-color: transparent;
 }
 
+/* 바로가기 아래 텍스트 */
 .end_text_2 {
     margin: 116px 0 0 0;
     color: #959595;
@@ -70,6 +79,7 @@
     background-color: transparent;
 }
 
+/* 엔드 카드 우측에 버튼 div */
 .box3 {
     width: 184px;
     height: 61px;
@@ -82,6 +92,7 @@
     background: rgba(231, 243, 255, 0.15);
 }
 
+/* 우측 버튼 안 텍스트 스타일 */
 .box_text {
     color: #FFF;
     text-align: center;

@@ -1,3 +1,6 @@
+/* 활동 내역 */
+
+/* 공통 스타일 */
 .s_title,
 .prj_name,
 .prj_ex,
@@ -9,6 +12,7 @@
     margin: 0;
 }
 
+/* 프로젝트 수상 내역의 div 스타일 */
 .frame {
     margin: 0 369px;
     display: flex;
@@ -17,6 +21,7 @@
     align-items: center;
 }
 
+/* 프로젝트 묶음 div */
 .p_div {
     margin-top: 40px;
     display: flex;
@@ -27,15 +32,18 @@
     align-self: stretch;
 }
 
+/* 여백을 위한 정말 그냥 박스 */
 .box1 { width: 100%; height: 153px; }
 .box2 { width: 100%; height: 498px; }
 
+/* 프로젝트, 수상 내역 타이틀 스타일 (추가) */
 .s_title {
     text-align: center;
     font-size: 64px;
     font-weight: 500;
 }
 
+/* 프로젝트 이미지 */
 .prj_img {
     margin-bottom: 32px;
     margin-top: 120px;
@@ -44,6 +52,7 @@
     align-self: stretch;
 }
 
+/* 프로젝트 이름 */
 .prj_name {
     text-align: center;
     font-size: var(--H2-size, 39px);
@@ -51,6 +60,7 @@
     line-height: var(--H2-line-height, 62px);
 }
 
+/* 프로젝트 설명 */
 .prj_ex {
     justify-self: center;
     text-align: center;
@@ -59,6 +69,7 @@
     line-height: var(--H5-line-height, 32px);
 }
 
+/* 사람 이름 텍스트 */
 .p_name {
     text-align: center;
     font-size: 24px;
@@ -66,6 +77,7 @@
     margin-bottom: 4px;
 }
 
+/* 상장 텍스트 */
 .p_award {
     align-self: stretch;
     text-align: center;
