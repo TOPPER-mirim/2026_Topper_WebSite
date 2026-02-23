@@ -3,18 +3,15 @@
 /* 엔드 카드 배경 및 형식 */
 .end_div {
     display: flex;
-    width: 100%;                                       
-    height: clamp(200px, 26.3vw, 505px);            
-    padding: clamp(36px, 5.21vw, 100px)            
-             clamp(120px, 19.27vw, 370px)            
-             clamp(26px, 3.85vw, 74px)            
-             clamp(120px, 19.22vw, 369px);          
+    width: 100%;
+    height: clamp(200px, 35.36vw, 679px);
+    padding: clamp(36px, 5.21vw, 100px) clamp(120px, 19.27vw, 370px) clamp(26px, 3.85vw, 74px) clamp(120px, 19.22vw, 369px);
     justify-content: space-between;
     flex-shrink: 0;
     background-image: url("../img/background_end.png");
-    background-size: cover;                           
+    background-size: cover;
     background-position: center;
-    box-sizing: border-box;                   
+    box-sizing: border-box;
 }
 
 /* 엔드 카드 Topper 문구 */
@@ -22,11 +19,11 @@
     color: #FFF;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Anta;
-    font-size: clamp(24px, 3.33vw, 64px);            
+    font-size: clamp(24px, 3.33vw, 64px);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin: 0 0 clamp(10px, 1.25vw, 24px) 0;     
+    margin: 0 0 clamp(10px, 1.25vw, 24px) 0;
     background-color: transparent;
 }
 
@@ -35,7 +32,7 @@
     color: #D7D7D7;
     text-align: left;
     font-family: Pretendard;
-    font-size: clamp(12px, 1.25vw, 24px);          
+    font-size: clamp(12px, 1.25vw, 18px);
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -45,10 +42,10 @@
 
 /* 바로가기들 묶음 div 스타일 */
 .end_as {
-    margin: clamp(16px, 2.19vw, 42px) 0;            
+    margin: clamp(16px, 2.19vw, 42px) 0;
     display: flex;
     flex-direction: column;
-    gap: clamp(6px, 0.78vw, 15px);                 
+    gap: clamp(6px, 0.78vw, 15px);
 }
 
 /* 바로가기 텍스트 스타일 */
@@ -57,22 +54,22 @@
     color: #D7D7D7;
     text-align: left;
     font-family: Anta;
-    font-size: clamp(12px, 1.25vw, 24px);        
+    font-size: clamp(12px, 1.25vw, 24px);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     display: inline-block;
-    width: clamp(50px, 5.57vw, 107px);               
+    width: clamp(50px, 5.57vw, 107px);
     margin: 0;
     background-color: transparent;
 }
 
 /* 바로가기 아래 텍스트 */
 .end_text_2 {
-    margin: clamp(40px, 6.04vw, 116px) 0 0 0;     
+    margin: clamp(40px, 6.04vw, 116px) 0 0 0;
     color: #959595;
     font-family: Pretendard;
-    font-size: clamp(10px, 1.09vw, 21px);            
+    font-size: clamp(10px, 1.09vw, 18px);
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -81,14 +78,14 @@
 
 /* 엔드 카드 우측에 버튼 div */
 .box3 {
-    width: clamp(80px, 9.58vw, 184px);         
-    height: clamp(28px, 3.18vw, 61px);            
+    width: clamp(80px, 9.58vw, 184px);
+    height: clamp(28px, 3.18vw, 61px);
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: clamp(4px, 0.52vw, 10px);              
+    gap: clamp(4px, 0.52vw, 10px);
     border-radius: 4323434px;
-    border: clamp(1px, 0.16vw, 3px) solid #959595;   
+    border: clamp(1px, 0.16vw, 3px) solid #959595;
     background: rgba(231, 243, 255, 0.15);
 }
 
@@ -97,7 +94,7 @@
     color: #FFF;
     text-align: center;
     font-family: Pretendard;
-    font-size: clamp(8px, 0.94vw, 18px);            
+    font-size: clamp(8px, 0.94vw, 18px);
     font-style: normal;
     font-weight: 600;
     line-height: normal;

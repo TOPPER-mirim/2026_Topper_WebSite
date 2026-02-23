@@ -40,7 +40,7 @@
 
 .box2 {
     width: 100%;
-    height: clamp(160px, 25.94vw, 498px);
+    height: clamp(160px, 25.94vw, 546px);
 }
 
 /* 프로젝트, 수상 내역 타이틀 스타일 */
@@ -80,7 +80,7 @@
 .prj_ex {
     justify-self: center;
     text-align: center;
-    font-size: clamp(12px, 1.04vw, 20px);
+    font-size: clamp(12px, 1.04vw, 18px);
     font-weight: 500;
     line-height: clamp(18px, 1.67vw, 32px);
 }
@@ -98,7 +98,7 @@
 .p_award {
     align-self: stretch;
     text-align: center;
-    font-size: clamp(12px, 1.04vw, 20px);
+    font-size: clamp(12px, 1.04vw, 18px);
     font-weight: 500;
     line-height: clamp(14px, 1.25vw, 24px);
     row-gap: clamp(8px, 1.04vw, 20px);
