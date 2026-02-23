@@ -103,3 +103,7 @@
     line-height: normal;
     background-color: transparent;
 }
+
+hr {
+    margin: 0;
+}
