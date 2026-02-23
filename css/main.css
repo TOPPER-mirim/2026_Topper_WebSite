@@ -135,6 +135,15 @@ p {
     justify-content: center;
 }
 
+.title_buttons_qanda {
+    margin-top: clamp(20px, 5.3125vw, 102px);
+    display: flex;
+    justify-self: center;
+    gap: clamp(10px, 1.51vw, 29px);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .title_button {
     display: flex;
     width: clamp(96px, 10.42vw, 200px);
@@ -142,12 +151,11 @@ p {
     justify-content: center;
     align-items: center;
     border-radius: clamp(8px, 0.78vw, 15px);
+    background: #1385FF;
 }
 
 .title_buttons a {
     margin: 0;
-    background: #1385FF;
-    border-radius: clamp(8px, 0.78vw, 15px);
 }
 
 .title_button p {
