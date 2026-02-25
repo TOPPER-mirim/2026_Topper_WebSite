@@ -7,8 +7,8 @@ body {
 a {
     color: #FFF;
     text-align: center;
-    font-family: Anta;
-    font-size: clamp(11px, 1.25vw, 24px);  
+    font-family: 'Anta';
+    font-size: clamp(11px, 1.25vw, 24px);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -20,6 +20,14 @@ p {
     color: #FFF;
 }
 
+.phone {
+    display: none;
+}
+
+.pc {
+    display: block;
+}
+
 /* 상단 바 */
 .nav_bar {
     width: clamp(320px, 61.46vw, 1180px);
@@ -28,7 +36,7 @@ p {
     justify-self: center;
     align-items: center;
     justify-content: center;
-    gap: clamp(16px, 4.17vw, 80px);      
+    gap: clamp(16px, 4.17vw, 80px);
 }
 
 /* 상단 바 - 토퍼 문구 */
@@ -36,8 +44,8 @@ p {
     color: #FFF;
     text-align: center;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Anta;
-    font-size: clamp(14px, 1.67vw, 32px);  
+    font-family: 'Anta', sans-serif;
+    font-size: clamp(14px, 1.67vw, 32px);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -46,10 +54,10 @@ p {
 /* 상단 바에 apply 버튼 */
 .apply_button {
     margin: 0px;
-    width: clamp(36px, 2.81vw, 54px);    
-    height: clamp(16px, 1.25vw, 24px);   
+    width: clamp(36px, 2.81vw, 54px);
+    height: clamp(16px, 1.25vw, 24px);
     display: inline-flex;
-    padding: clamp(10px, 1.04vw, 20px) clamp(16px, 2.08vw, 40px); 
+    padding: clamp(10px, 1.04vw, 20px) clamp(16px, 2.08vw, 40px);
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -73,8 +81,8 @@ p {
     background-size: cover;
     background-position: center;
     width: auto;
-    padding: clamp(80px, 19.22vw, 369px) 0 clamp(70px, 17.19vw, 330px) 0; 
-    height: clamp(140px, 19.84vw, 381px); 
+    padding: clamp(80px, 19.22vw, 369px) 0 clamp(70px, 17.19vw, 330px) 0;
+    height: clamp(140px, 19.84vw, 381px);
 }
 
 /* 메인 화면 - 부원 소개, 활동 내역, Q&A 배경 */
@@ -92,8 +100,8 @@ p {
     margin: 0;
     text-align: center;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Anta;
-    font-size: clamp(28px, 6.67vw, 128px);  
+    font-family: 'Anta', sans-serif;
+    font-size: clamp(28px, 6.67vw, 128px);
     font-style: normal;
     line-height: normal;
     background-color: transparent;
@@ -101,11 +109,11 @@ p {
 
 /* 부원 소개, 활동 내역, Q&A 타이틀 문구 스타일 */
 .title_sub {
-    width: clamp(110px, 15.42vw, 296px);   
+    width: clamp(110px, 15.42vw, 296px);
     color: #FFF;
     text-align: center;
     font-family: Pretendard;
-    font-size: clamp(22px, 4.17vw, 80px); 
+    font-size: clamp(22px, 4.17vw, 80px);
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -115,11 +123,11 @@ p {
 
 /* 타이틀 밑 텍스트 스타일 */
 .title_text {
-    margin: clamp(6px, 0.73vw, 14px) 0 0 0; 
+    margin: clamp(6px, 1.77vw, 34px) 0 0 0;
     color: #D7D7D7;
     text-align: center;
     font-family: Pretendard;
-    font-size: clamp(11px, 1.25vw, 24px);   
+    font-size: clamp(11px, 1.25vw, 24px);
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -127,35 +135,42 @@ p {
 
 /* index 파일 메인 화면에 있는 버튼들 */
 .title_buttons {
-    margin-top: clamp(20px, 1.82vw, 35px);  
+    margin-top: clamp(20px, 2.08vw, 40px);
     display: flex;
     justify-self: center;
-    gap: clamp(10px, 1.51vw, 29px);         
+    gap: clamp(10px, 1.51vw, 29px);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title_buttons_qanda {
+    margin-top: clamp(20px, 5.3125vw, 102px);
+    display: flex;
+    justify-self: center;
+    gap: clamp(10px, 1.51vw, 29px);
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .title_button {
     display: flex;
-    width: clamp(96px, 10.42vw, 200px);    
-    height: clamp(38px, 3.75vw, 72px);    
+    width: clamp(96px, 10.42vw, 200px);
+    height: clamp(38px, 3.75vw, 72px);
     justify-content: center;
     align-items: center;
     border-radius: clamp(8px, 0.78vw, 15px);
+    background: #1385FF;
 }
 
 .title_buttons a {
     margin: 0;
-    background: #000;
-    border: #959595 solid 3px;
-    border-radius: clamp(8px, 0.78vw, 15px);
 }
 
 .title_button p {
     color: #FFF;
     text-align: center;
     font-family: Pretendard;
-    font-size: clamp(12px, 1.30vw, 25px);  
+    font-size: clamp(12px, 1.30vw, 25px);
     font-style: normal;
     border-radius: clamp(8px, 0.78vw, 15px);
     line-height: var(--H4-line-height, 40px);
@@ -164,4 +179,133 @@ p {
 
 .title_button:hover {
     cursor: pointer;
+}
+
+/* 핸드폰 햄버거 */
+
+/* 햄버거 버튼 */
+.hamburger {
+    background-image: url("../img/hamburger.svg");
+    color: #FFF;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    display: none;
+    /* PC에선 숨김 */
+    z-index: 1001;
+}
+
+/* 사이드 메뉴 */
+.side-menu {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    /* 화면 밖 */
+    width: 250px;
+    height: 100vh;
+    background: #111;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    transition: 0.3s ease;
+    z-index: 1000;
+}
+
+.side-menu a {
+    color: white;
+    text-decoration: none;
+    padding: 16px 24px;
+}
+
+/* 열렸을 때 */
+.side-menu.active {
+    right: 0;
+}
+
+
+@media (max-width: 393px) {
+    a {
+        font-size: 12px;
+        font-weight: 500;
+        margin: 0 clamp(6px, 2.08vw, 40px);
+    }
+
+    .nav_bar {
+        justify-content: space-between;
+    }
+
+    /* 상단 바에 apply 버튼 */
+    .apply_button {
+        display: none;
+    }
+
+    .phone {
+        display: block;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    /* 메인 화면 - index 파일 배경 */
+    .main {
+        background-image: url("../img/p_background.png");
+        padding: 109px 88px 64px 88px;
+        height: 160px
+    }
+
+    /* 메인 화면 - 부원 소개, 활동 내역, Q&A 배경 */
+    .main_sub {
+        background-image: url("../img/p_background_sub.png");
+        padding: 109px 88px 64px 88px;
+        height: 160px;
+    }
+
+    /* index 파일 TOPPER 타이틀 문구 스타일 */
+    .title {
+        text-shadow: 0 1.2px 1.2px rgba(0, 0, 0, 0.25);
+        font-size: 40px;
+    }
+
+    /* 부원 소개, 활동 내역, Q&A 타이틀 문구 스타일 */
+    .title_sub {
+        width: 88.8px;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    /* 타이틀 밑 텍스트 스타일 */
+    .title_text {
+        font-size: 12px;
+        font-weight: 500;
+        width: 215px;
+    }
+
+    /* index 파일 메인 화면에 있는 버튼들 */
+    .title_buttons {
+        margin-top: 16px;
+        gap: 4px;
+    }
+
+    /* Q&A 페이지에 버튼 */
+    .title_buttons_qanda {
+        display: none;
+    }
+
+    .title_button {
+        width: auto;
+        padding: 0 18px;
+        height: 30px;
+        border-radius: 4.5px;
+    }
+
+    .title_button p {
+        font-size: 10px;
+        border-radius: 4.5px;
+        line-height: normal;
+    }
+
+    .hamburger {
+        display: block;
+    }
 }

@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/activities.css" />
     <link rel="stylesheet" href="../css/end.css" />
@@ -13,7 +14,8 @@
 <body>
     <div class="nav_bar">
         <p class="nav_topper">Topper</p>
-        <nav>
+        <!-- PC일 때 -->
+        <nav class="pc">
             <a href="index.html">Introduce</a>
             <a href="about_us.html">About Us</a>
             <a href="activities.html">Activities</a>
@@ -22,6 +24,16 @@
         <a href="https://forms.gle/sB22bkViKaAgM2iJA" target="_blank" rel="noopener noreferrer" class="apple_button">
             Apple
         </a>
+        <!-- 모바일 햄버거 버튼 -->
+        <header>
+            <div class="hamburger" id="hamburger"></div>
+        </header>
+        <nav class="side-menu" id="sideMenu">
+            <a href="index.html">Introduce</a>
+            <a href="about_us.html">About Us</a>
+            <a href="activities.html">Activities</a>
+            <a href="q_and_a.html">Q&A</a>
+        </nav>
     </div>
     <div class="main_sub">
         <p class="title">TOPPER</p>
@@ -41,6 +53,8 @@
     </div>
     <div class="box2"></div>
 
+    <!-- 엔드 카드 -->
+    <hr>
     <div class="end_div">
         <!-- <div class="end_img"><img src="../img/TOPPER.png"></div> -->
         <div>
@@ -54,13 +68,11 @@
             </div>
             <p class="end_text_2">Mirim Topper Website</p>
         </div>
-        <a href="https://www.instagram.com/topper_mirim?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
-            <div class="box3">
-                <p class="box_text">instagram</p>
-            </div>
-        </a>
     </div>
 
+    <!-- 상단 바 햄버거 -->
+    <script src="../js/main/hamburger.js"></script>
+    <!-- JavaScript : json 파일에 있는 프로젝트와 수상 경력을 불러옴. -->
     <script src="../js/activities/prj.js"></script>
     <script src="../js/activities/profile.js"></script>
 </body>
