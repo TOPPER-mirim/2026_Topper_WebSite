@@ -13,7 +13,8 @@
     <!-- 상단 바 -->
     <div class="nav_bar">
         <p class="nav_topper">Topper</p>
-        <nav>
+        <!-- PC일 때 -->
+        <nav class="pc">
             <a href="index.html">Introduce</a>
             <a href="about_us.html">About Us</a>
             <a href="activities.html">Activities</a>
@@ -23,6 +24,16 @@
             class="apply_button">
             Apply
         </a>
+        <!-- 모바일 햄버거 버튼 -->
+        <header>
+            <div class="hamburger" id="hamburger"></div>
+        </header>
+        <nav class="side-menu" id="sideMenu">
+            <a href="index.html">Introduce</a>
+            <a href="about_us.html">About Us</a>
+            <a href="activities.html">Activities</a>
+            <a href="q_and_a.html">Q&A</a>
+        </nav>
     </div>
 
     <!-- 메인 화면 -->
@@ -30,8 +41,11 @@
         <p class="title">TOPPER</p>
         <!-- 중앙에 토퍼 문구. 그런데 피그마에 폰트 적용이 안되서 이미지로 한다면 수정해야 함. -->
         <!-- <img src="../img/TOPPER.png" width="723" height="156"> -->
-        <p class="title_text">토퍼는 전공 분야의 기술을 깊이 있게 탐구하고
+        <p class="title_text pc">토퍼는 전공 분야의 기술을 깊이 있게 탐구하고
             <br>아이디어를 실제 서비스로 구현하며 실무 역량을 키워가는 전공 동아리입니다.
+        </p>
+        <p class="title_text phone">토퍼는 전공 분야의 기술을 깊이 있게 탐구하고
+            <br>아이디어를 실제 서비스로 구현하며<br>실무 역량을 키워가는 전공 동아리입니다.
         </p>
         <!-- 중앙에 버튼 모음 -->
         <div class="title_buttons">
@@ -57,6 +71,7 @@
 
         </div>
     </div>
+    <script src="../js/main/hamburger.js"></script>
 </body>
 
 </html>

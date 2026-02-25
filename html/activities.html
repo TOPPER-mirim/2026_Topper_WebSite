@@ -15,15 +15,27 @@
     <!-- 상단 바 -->
     <div class="nav_bar">
         <p class="nav_topper">Topper</p>
-        <nav>
+        <!-- PC일 때 -->
+        <nav class="pc">
+            <a href="index.html">Introduce</a>
+            <a href="about_us.html">About Us</a>
+            <a href="activities.html">Activities</a>
+            <a href="q_and_a.html">Q&A</a>
+
+        </nav> <a href="https://forms.gle/sB22bkViKaAgM2iJA" target="_blank" rel="noopener noreferrer"
+            class="apply_button">
+            Apply
+        </a>
+        <!-- 모바일 햄버거 버튼 -->
+        <header>
+            <div class="hamburger" id="hamburger"></div>
+        </header>
+        <nav class="side-menu" id="sideMenu">
             <a href="index.html">Introduce</a>
             <a href="about_us.html">About Us</a>
             <a href="activities.html">Activities</a>
             <a href="q_and_a.html">Q&A</a>
         </nav>
-        <a href="https://forms.gle/sB22bkViKaAgM2iJA" target="_blank" rel="noopener noreferrer" class="apply_button">
-            Apply
-        </a>
     </div>
 
     <!-- 메인 화면 -->
@@ -73,6 +85,8 @@
         </a>
     </div>
 
+    <!-- 상단 바 햄버거 -->
+    <script src="../js/main/hamburger.js"></script>
     <!-- JavaScript : json 파일에 있는 프로젝트와 수상 경력을 불러옴. -->
     <script src="../js/activities/prj.js"></script>
     <script src="../js/activities/profile.js"></script>
