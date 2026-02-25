@@ -102,8 +102,70 @@
     font-weight: 500;
     line-height: clamp(14px, 1.25vw, 24px);
     row-gap: clamp(8px, 1.04vw, 20px);
+    white-space: nowrap;
+    width: auto;
 }
 
 @media (max-width: 393px) {
 
+    /* 프로젝트 수상 내역의 div 스타일 */
+    .frame {
+        margin: 0 38px;
+    }
+
+    /* 프로젝트 묶음 div */
+    .p_div {
+        margin-top: 12px;
+        gap: 7.2px;
+        padding: 18px 0;
+    }
+
+    /* 여백을 위한 박스 */
+    .box1,
+    .box2 {
+        height: 85px;
+    }
+
+    /* 프로젝트, 수상 내역 타이틀 스타일 */
+    .s_title {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    /* 프로젝트 이미지 */
+    .prj_img {
+        margin-bottom: clamp(12px, 1.67vw, 32px);
+        margin-top: clamp(40px, 6.25vw, 120px);
+        max-width: 1180px;
+        aspect-ratio: 1180 / 450;
+    }
+
+    /* 프로젝트 이름 */
+    .prj_name {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: clamp(28px, 3.23vw, 62px);
+    }
+
+    /* 프로젝트 설명 */
+    .prj_ex {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+
+    /* 사람 이름 텍스트 */
+    .p_name {
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+
+    /* 상장 텍스트 */
+    .p_award {
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 15px;
+        row-gap: 10px;
+    }
 }
