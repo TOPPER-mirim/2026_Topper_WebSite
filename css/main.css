@@ -191,7 +191,6 @@ p {
     height: 16px;
     cursor: pointer;
     display: none;
-    /* PC에선 숨김 */
     z-index: 1001;
 }
 
@@ -201,20 +200,37 @@ p {
     top: 0;
     right: -250px;
     /* 화면 밖 */
-    width: 250px;
-    height: 100vh;
+    width: auto;
+    height: 100%;
     background: #111;
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-top: 80px;
     transition: 0.3s ease;
     z-index: 1000;
 }
 
+.side-menu p {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0 1.2px 1.2px rgba(0, 0, 0, 0.25);
+    font-family: Anta;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
 .side-menu a {
-    color: white;
-    text-decoration: none;
-    padding: 16px 24px;
+    color: #D7D7D7;
+    display: flex;
+    width: 67px;
+    height: 938px;
+    padding: 90px 36px 622px 159px;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* 열렸을 때 */
