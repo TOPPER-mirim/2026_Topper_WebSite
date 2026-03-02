@@ -1,0 +1,184 @@
+/* Q&A 페이지 */
+
+.box1 {
+    width: 100%;
+    height: clamp(60px, 7.97vw, 153px);
+}
+
+.qna_frame {
+    margin: 0 clamp(20px, 19.22vw, 369px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qna_section_title {
+    color: #FFF;
+    font-family: Pretendard;
+    font-style: normal;
+    text-align: center;
+    font-size: clamp(24px, 3.33vw, 64px);
+    font-weight: 500;
+    margin: 0 0 clamp(32px, 3.33vw, 64px) 0;
+}
+
+
+/* 카드 목록 컨테이너 */
+
+#qna_list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(12px, 1.25vw, 24px);
+}
+
+
+/* 개별 카드 */
+
+.qna_card {
+    border: 1px solid #1e3a6e;
+    border-radius: clamp(12px, 1.25vw, 24px);
+    padding: clamp(16px, 1.67vw, 32px) clamp(20px, 2.08vw, 40px);
+    background: #0a0f1e;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+/* 질문 행 */
+
+.qna_question {
+    display: flex;
+    gap: clamp(6px, 0.52vw, 10px);
+    align-items: flex-start;
+    margin-bottom: clamp(8px, 0.83vw, 16px);
+}
+
+
+/* "Q." 라벨 */
+
+.qna_q_label {
+    color: #FFF;
+    font-family: Pretendard;
+    font-size: clamp(12px, 1.04vw, 20px);
+    font-weight: 700;
+    line-height: 1.6;
+    flex-shrink: 0;
+    margin: 0;
+}
+
+
+/* 질문 텍스트 */
+
+.qna_q_text {
+    color: #FFF;
+    font-family: Pretendard;
+    font-size: clamp(12px, 1.04vw, 20px);
+    font-weight: 600;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+/* 답변 텍스트 */
+
+.qna_answer {
+    color: #D7D7D7;
+    font-family: Pretendard;
+    font-size: clamp(11px, 0.94vw, 18px);
+    font-style: normal;
+    font-weight: 500;
+    line-height: clamp(18px, 1.67vw, 32px);
+    margin: 0;
+    padding-left: clamp(14px, 1.25vw, 24px);
+}
+
+
+/* 하단 ask CTA 영역 */
+
+.qna_cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(10px, 1.04vw, 20px);
+}
+
+.qna_cta_text {
+    color: #D7D7D7;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: clamp(12px, 1.25vw, 24px);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+}
+
+
+/* 엔드카드 instagram 버튼 */
+
+.box3 {
+    display: inline-flex;
+    padding: clamp(8px, 0.83vw, 16px) clamp(16px, 1.67vw, 32px);
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    border: 1px solid #FFF;
+    background: transparent;
+    white-space: nowrap;
+    align-self: flex-start;
+    margin-top: clamp(36px, 5.21vw, 100px);
+}
+
+.box_text {
+    color: #FFF;
+    font-family: Pretendard;
+    font-size: clamp(11px, 1.04vw, 20px);
+    font-weight: 500;
+    margin: 0;
+}
+
+
+/* background_end.png 없을 때 배경색 fallback */
+
+.end_div {
+    background-color: #040d1f;
+}
+
+
+/* 모바일 */
+
+@media (max-width: 393px) {
+    .box1 {
+        height: 85px;
+    }
+    .qna_frame {
+        margin: 0 20px;
+    }
+    .qna_section_title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .qna_card {
+        padding: 14px 16px;
+        border-radius: 8px;
+    }
+    .qna_q_label,
+    .qna_q_text {
+        font-size: 13px;
+    }
+    .qna_answer {
+        font-size: 11px;
+        line-height: 18px;
+        padding-left: 12px;
+    }
+    .qna_cta_text {
+        font-size: 12px;
+    }
+    .box3 {
+        padding: 7px 16px;
+    }
+    .box_text {
+        font-size: 11px;
+    }
+}
