@@ -7,7 +7,7 @@
 .p_name,
 .p_award {
     color: #FFF;
-    font-family: Pretendard;
+    font-family: Pretendard, sans-serif;
     font-style: normal;
     margin: 0;
 }

@@ -109,16 +109,16 @@ p {
 
 /* 부원 소개, 활동 내역, Q&A 타이틀 문구 스타일 */
 .title_sub {
-    width: clamp(110px, 15.42vw, 296px);
+    /* width: clamp(110px, 15.42vw, 296px);
+    font-style: normal;
+    line-height: normal;
+    justify-self: center; */
     color: #FFF;
     text-align: center;
     font-family: Pretendard;
     font-size: clamp(22px, 4.17vw, 80px);
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
-    justify-self: center;
-    margin: 0;
+    margin: 0 auto;
 }
 
 /* 타이틀 밑 텍스트 스타일 */
@@ -313,7 +313,7 @@ p {
     /* 부원 소개, 활동 내역, Q&A 타이틀 문구 스타일 */
     .title_sub {
         /* width: 88.8px @ 393px */
-        width: clamp(72px, 22.59vw, 88.8px);
+        /* width: clamp(72px, 22.59vw, 88.8px); */
         /* font-size: 24px @ 393px */
         font-size: clamp(19px, 6.11vw, 24px);
         font-weight: 600;
