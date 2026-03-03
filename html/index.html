@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>TOPPER</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="../css/main.css" />
@@ -35,7 +36,7 @@
       <a href="about_us.html">About Us</a>
       <a href="activities.html">Activities</a>
       <a href="q_and_a.html">Q&A</a>
-      <div class="back" id="backBtn">
+      <div class="back" id="back">
         <p>뒤로가기 </p>
         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" viewBox="0 0 12 24" fill="none">
           <path d="M2.45199 6.58023L3.51299 5.52024L9.29199 11.2972C9.38514 11.3898 9.45907 11.4999 9.50952 11.6211C9.55997 11.7424 9.58594 11.8724 9.58594 12.0037C9.58594 12.1351 9.55997 12.2651 9.50952 12.3863C9.45907 12.5076 9.38514 12.6177 9.29199 12.7102L3.51299 18.4902L2.45299 17.4302L7.87699 12.0052L2.45199 6.58023Z" fill="white" />
@@ -149,45 +150,38 @@
     </section>
 
   </div>
-
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <div class="footer-left">
-        <div class="footer-brand">TOPPER</div>
-        <div class="footer-tagline">지금 이 곳에 Mirim Topper를 지원하세요</div>
-        <a href="index.html" class="footer-link">Introduce</a>
-        <a href="about_us.html" class="footer-link">About us</a>
-        <a href="activities.html" class="footer-link">Activities</a>
-        <a href="q_and_a.html" class="footer-link">Q&A</a>
-      </div>
-      <div class="footer-right">
-        <a class="footer-ig" href="https://www.instagram.com/topper_mirim/">Instagram</a>
-      </div>
+<hr>
+    <div class="end_div">
+        <!-- <div class="end_img"><img src="../img/TOPPER.png"></div> -->
+        <div>
+            <p class="end_img">Topper</p>
+            <p class="end_text_1">지금 바로 Mirim Topper에 지원하세요</p>
+            <div class="end_as">
+                <a class="end_a" href="index.html">Introduce</a>
+                <a class="end_a" href="about_us.html">About us</a>
+                <a class="end_a" href="activities.html">Activities</a>
+                <a class="end_a" href="q_and_a.html">Q&A</a>
+            </div>
+            <p class="end_text_2">Mirim Topper Website</p>
+        </div>
     </div>
-    <p class="footer-copy">Mirim Topper Website</p>
-  </footer>
-
-  <div id="lightbox" class="lightbox">
-    <button class="lb-close" id="lbClose">✕</button>
-    <img class="lb-img" id="lbImg" src="" alt="">
-  </div>
-
+  
   <script>
     const hamburger = document.getElementById('hamburger');
     const sideMenu = document.getElementById('sideMenu');
     const sideOverlay = document.getElementById('sideOverlay');
-    const backBtn = document.getElementById('backBtn');
+    const back = document.getElementById('back');
 
     hamburger.addEventListener('click', () => { 
-      sideMenu.classList.add('open'); 
+      sideMenu.classList.add('active'); 
       sideOverlay.classList.add('open'); 
     });
-    backBtn.addEventListener('click', () => { 
-      sideMenu.classList.remove('open'); 
+    back.addEventListener('click', () => { 
+      sideMenu.classList.remove('active'); 
       sideOverlay.classList.remove('open'); 
     });
     sideOverlay.addEventListener('click', () => { 
-      sideMenu.classList.remove('open'); 
+      sideMenu.classList.remove('active'); 
       sideOverlay.classList.remove('open'); 
     });
     </script>
