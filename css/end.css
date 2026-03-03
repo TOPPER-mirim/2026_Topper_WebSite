@@ -120,6 +120,7 @@ hr {
         line-height: normal;
         margin: 0;
         background-color: transparent;
+        white-space: nowrap;
     }
 
     /* 바로가기들 묶음 div 스타일 */
