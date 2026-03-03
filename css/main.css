@@ -263,9 +263,10 @@ p {
 
 @media (max-width: 393px) {
     a {
-        font-size: 12px;
+        /* 12px @ 393px → min ~9px @ 320px */
+        font-size: clamp(9px, 3.05vw, 12px);
         font-weight: 500;
-        margin: 0 clamp(6px, 2.08vw, 40px);
+        margin: 0 clamp(6px, 2.04vw, 8px);
     }
 
     .nav_bar {
@@ -288,41 +289,49 @@ p {
     /* 메인 화면 - index 파일 배경 */
     .main {
         background-image: url("../img/p_background.png");
-        padding: 109px 88px 64px 88px;
-        height: 160px;
+        /* padding: top right bottom left */
+        /* top: 109px, right: 88px, bottom: 64px, left: 88px @ 393px */
+        padding: clamp(88px, 27.74vw, 109px) clamp(72px, 22.39vw, 88px) clamp(52px, 16.29vw, 64px) clamp(72px, 22.39vw, 88px);
+        /* height: 160px @ 393px */
+        height: clamp(130px, 40.71vw, 160px);
     }
 
     /* 메인 화면 - 부원 소개, 활동 내역, Q&A 배경 */
     .main_sub {
         background-image: url("../img/p_background_sub.png");
-        padding: 109px 88px 64px 88px;
-        height: 160px;
+        padding: clamp(88px, 27.74vw, 109px) clamp(72px, 22.39vw, 88px) clamp(52px, 16.29vw, 64px) clamp(72px, 22.39vw, 88px);
+        height: clamp(130px, 40.71vw, 160px);
     }
 
     /* index 파일 TOPPER 타이틀 문구 스타일 */
     .title {
         text-shadow: 0 1.2px 1.2px rgba(0, 0, 0, 0.25);
-        font-size: 40px;
+        /* 40px @ 393px */
+        font-size: clamp(32px, 10.18vw, 40px);
     }
 
     /* 부원 소개, 활동 내역, Q&A 타이틀 문구 스타일 */
     .title_sub {
-        width: 88.8px;
-        font-size: 24px;
+        /* width: 88.8px @ 393px */
+        width: clamp(72px, 22.59vw, 88.8px);
+        /* font-size: 24px @ 393px */
+        font-size: clamp(19px, 6.11vw, 24px);
         font-weight: 600;
     }
 
     /* 타이틀 밑 텍스트 스타일 */
     .title_text {
-        font-size: 12px;
+        /* font-size: 12px, width: 215px @ 393px */
+        font-size: clamp(10px, 3.05vw, 12px);
         font-weight: 500;
-        width: 215px;
+        width: clamp(175px, 54.71vw, 215px);
     }
 
     /* index 파일 메인 화면에 있는 버튼들 */
     .title_buttons {
-        margin-top: 16px;
-        gap: 4px;
+        /* margin-top: 16px, gap: 4px @ 393px */
+        margin-top: clamp(12px, 4.07vw, 16px);
+        gap: clamp(3px, 1.02vw, 4px);
     }
 
     /* Q&A 페이지에 버튼 */
@@ -332,14 +341,18 @@ p {
 
     .title_button {
         width: auto;
-        padding: 0 18px;
-        height: 30px;
-        border-radius: 4.5px;
+        /* padding: 0 18px @ 393px */
+        padding: 0 clamp(14px, 4.58vw, 18px);
+        /* height: 30px @ 393px */
+        height: clamp(24px, 7.63vw, 30px);
+        /* border-radius: 4.5px @ 393px */
+        border-radius: clamp(3.5px, 1.15vw, 4.5px);
     }
 
     .title_button p {
-        font-size: 10px;
-        border-radius: 4.5px;
+        /* font-size: 10px @ 393px */
+        font-size: clamp(8px, 2.54vw, 10px);
+        border-radius: clamp(3.5px, 1.15vw, 4.5px);
         line-height: normal;
     }
 
