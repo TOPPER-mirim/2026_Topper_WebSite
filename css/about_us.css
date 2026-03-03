@@ -6,7 +6,7 @@ body {
 .sub_title {
     color: #FFF;
     text-align: center;
-    font-family: Pretendard;
+    font-family: Pretendard, sans-serif;
     font-size: 64px;
     font-weight: 500;
     margin: 153px 0 121px;
