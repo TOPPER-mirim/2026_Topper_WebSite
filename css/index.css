@@ -9,15 +9,6 @@
     .box1{width:100%;height:clamp(60px,7.97vw,153px)}
     .box2{width:100%;height:clamp(160px,25.94vw,546px)}
 
-    /* TOPPER에서는? */
-    .intro-sec{text-align:center}
-    .sec-title-sm{font-size:14px;font-weight:700;color:#fff;margin-bottom:6px}
-    .sec-desc{font-size:12.5px;color:#9aa6b2;margin-bottom:26px;line-height:1.6}
-    .pills-col{display:flex;flex-direction:column;gap:32px;max-width:510px;margin:0 auto;text-align:left}
-    .pill-row{display:flex;align-items:flex-start;gap:24px}
-    .pill-tag{flex-shrink:0;background:#1e90ff;color:#fff;padding:14px 28px;border-radius:14px;font-size:18px;font-weight:800;min-width:110px;text-align:center}
-    .pill-text{color:#ccd0d5;font-size:16px;line-height:1.7;padding-top:12px}
-
     /* 갤러리 */
     .gallery-sec{padding:54px 0 0}
     .sec-label{font-size:13px;font-weight:700;color:#fff;margin-bottom:13px}
