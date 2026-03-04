@@ -1,96 +1,115 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>2026 Topper WebSite</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet"> <!-- anta 폰트-->
-    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css" /> <!--프리텐다드폰트-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anta&display=swap"
+      rel="stylesheet"
+    />
+    <!-- anta 폰트-->
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css"
+    />
+    <!--프리텐다드폰트-->
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/about_us.css">
-    <link rel="stylesheet" href="./css/end.css">
+    <link rel="stylesheet" href="./css/about_us.css" />
+    <link rel="stylesheet" href="./css/end.css" />
 
     <script src="../js/about_us/aboutus.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- 상단 바와 햄버거 모음 -->
     <div class="nav_bar">
-        <p class="nav_topper">Topper</p>
-        <!-- PC일 때 -->
-        <nav class="pc">
-            <a href="index.html">Introduce</a>
-            <a href="about_us.html" class="active">About Us</a>
-            <a href="activities.html">Activities</a>
-            <a href="q_and_a.html">Q&A</a>
-        </nav>
-        <a href="https://forms.gle/sB22bkViKaAgM2iJA" target="_blank" rel="noopener noreferrer" class="apply_button">
-            Apply
-        </a>
-        <!-- 모바일 햄버거 버튼 -->
-        <header>
-            <div class="hamburger" id="hamburger"></div>
-        </header>
-        <nav class="side-menu" id="sideMenu">
-            <p>Topper</p>
-            <a href="index.html">Introduce</a>
-            <a href="about_us.html">About Us</a>
-            <a href="activities.html">Activities</a>
-            <a href="q_and_a.html">Q&A</a>
-            <div class="back" id="back">
-                <p>뒤로가기 </p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="24" viewBox="0 0 12 24" fill="none">
-                    <path
-                        d="M2.45199 6.58023L3.51299 5.52024L9.29199 11.2972C9.38514 11.3898 9.45907 11.4999 9.50952 11.6211C9.55997 11.7424 9.58594 11.8724 9.58594 12.0037C9.58594 12.1351 9.55997 12.2651 9.50952 12.3863C9.45907 12.5076 9.38514 12.6177 9.29199 12.7102L3.51299 18.4902L2.45299 17.4302L7.87699 12.0052L2.45199 6.58023Z"
-                        fill="white" />
-                </svg>
-            </div>
-        </nav>
+      <p class="nav_topper">Topper</p>
+      <!-- PC일 때 -->
+      <nav class="pc">
+        <a href="index.html">Introduce</a>
+        <a href="about_us.html" class="active">About Us</a>
+        <a href="activities.html">Activities</a>
+        <a href="q_and_a.html">Q&A</a>
+      </nav>
+
+      <a
+        href="https://forms.gle/sB22bkViKaAgM2iJA"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="apply_button"
+      >
+        Apply
+      </a>
+
+      <!-- 모바일 햄버거 버튼 -->
+      <header>
+        <div class="hamburger" id="hamburger"></div>
+      </header>
+
+      <nav class="side-menu" id="sideMenu">
+        <p>Topper</p>
+        <a href="index.html">Introduce</a>
+        <a href="about_us.html">About Us</a>
+        <a href="activities.html">Activities</a>
+        <a href="q_and_a.html">Q&A</a>
+        <div class="back" id="back">
+          <p>뒤로가기</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="12"
+            height="24"
+            viewBox="0 0 12 24"
+            fill="none"
+          >
+            <path
+              d="M2.45199 6.58023L3.51299 5.52024L9.29199 11.2972C9.38514 11.3898 9.45907 11.4999 9.50952 11.6211C9.55997 11.7424 9.58594 11.8724 9.58594 12.0037C9.58594 12.1351 9.55997 12.2651 9.50952 12.3863C9.45907 12.5076 9.38514 12.6177 9.29199 12.7102L3.51299 18.4902L2.45299 17.4302L7.87699 12.0052L2.45199 6.58023Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+      </nav>
     </div>
 
     <!-- 메인 화면 -->
     <div class="main_sub">
-        <p class="title">TOPPER</p>
-        <!-- <img src="../img/TOPPER.png" width="723" height="156"> -->
-        <p class="title_sub">부원 소개</p>
-        <p class="title_text">여러분과 함께 할 토퍼의 부원들을 소개합니다!</p>
+      <p class="title">TOPPER</p>
+      <!-- <img src="../img/TOPPER.png" width="723" height="156"> -->
+      <p class="title_sub">부원 소개</p>
+      <p class="title_text">여러분과 함께 할 토퍼의 부원들을 소개합니다!</p>
     </div>
 
-
-
     <div class="section">
-        <!-- 3기 -->
-        <div class="section-3th">
-            <h3 class="sub_title">TOPPER 3기</h3>
-            <div id="profile_3th"></div>
-        </div>
+      <!-- 3기 -->
+      <div class="section-3th">
+        <h3 class="sub_title">TOPPER 3기</h3>
+        <div id="profile_3th"></div>
+      </div>
 
-
-        <!-- 4기 -->
-        <div class="section-4th">
-            <h3 class="sub_title">TOPPER 4기</h3>
-            <div id="profile_4th"></div>
-        </div>
-
+      <!-- 4기 -->
+      <div class="section-4th">
+        <h3 class="sub_title">TOPPER 4기</h3>
+        <div id="profile_4th"></div>
+      </div>
     </div>
 
     <div class="end_div">
-        <div>
-            <p class="end_img">TOPPER</p>
-            <p class="end_text_1">지금 바로 Mirim Topper에 지원하세요</p>
-            <div class="end_as">
-                <a class="end_a" href="index.html">Introduce</a>
-                <a class="end_a" href="about_us.html">About us</a>
-                <a class="end_a" href="activities.html">Activities</a>
-                <a class="end_a" href="q_and_a.html">Q&A</a>
-            </div>
-            <p class="end_text_2">Mirim Topper Website</p>
+      <div>
+        <p class="end_img">TOPPER</p>
+        <p class="end_text_1">지금 바로 Mirim Topper에 지원하세요</p>
+        <div class="end_as">
+          <a class="end_a" href="index.html">Introduce</a>
+          <a class="end_a" href="about_us.html">About us</a>
+          <a class="end_a" href="activities.html">Activities</a>
+          <a class="end_a" href="q_and_a.html">Q&A</a>
         </div>
+        <p class="end_text_2">Mirim Topper Website</p>
+      </div>
     </div>
 
     <script src="../js/main/hamburger.js"></script>
-</body>
-
+  </body>
 </html>
