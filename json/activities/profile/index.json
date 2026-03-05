@@ -33,5 +33,35 @@
     "id": 7,
     "name": "4기 최서현",
     "path": "../json/activities/profile/people/p7.json"
+  },
+  {
+    "id": 8,
+    "name": "3기 김이레",
+    "path": "../json/activities/profile/people/p8.json"
+  },
+    {
+    "id": 9,
+    "name": "3기 송민채",
+    "path": "../json/activities/profile/people/p9.json"
+  },
+    {
+    "id": 10,
+    "name": "3기 윤성연",
+    "path": "../json/activities/profile/people/p10.json"
+  },
+    {
+    "id": 11,
+    "name": "3기 이세현",
+    "path": "../json/activities/profile/people/p11.json"
+  },
+    {
+    "id": 12,
+    "name": "3기 한지연",
+    "path": "../json/activities/profile/people/p12.json"
+  },
+    {
+    "id": 13,
+    "name": "3기 박솔하",
+    "path": "../json/activities/profile/people/p13.json"
   }
 ]
