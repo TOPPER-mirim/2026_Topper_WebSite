@@ -1,36 +1,39 @@
-function loadAll() {
-  fetch('../json/activities/profile/index.json')
-    .then(res => res.json())
-    .then(list => {
-      const profilediv = document.getElementById('profile');
+async function loadAll() {
+  const res = await fetch("../json/activities/profile/index.json");
+  const list = await res.json();
 
-      let awardHTML = '';
+  const profilediv = document.getElementById("profile");
 
-      for (let i = 0; i < list.length; i++) {
-        const person = list[i];
+  const results = await Promise.all(
+    list.map(async (person) => {
+      const res = await fetch(person.path);
+      const awards = await res.json();
 
-        fetch(person.path)
-          .then(res => res.json())
-          .then(awards => {
+      return { ...person, awards };
+    }),
+  );
 
-            let groupHTML = `
-              <div class="p_div">
-                <div class="p_name">${person.name}</div>
-            `;
+  results.sort((a, b) => a.id - b.id);
 
-            for (let j = 0; j < awards.length; j++) {
-              groupHTML += `
-                <div class="p_award">${awards[j].name}</div>
-              `;
-            }
+  let awardHTML = "";
 
-            groupHTML += `</div>`;
+  for (const item of results) {
+    let groupHTML = `
+      <div class="p_div">
+        <div class="p_name">${item.name}</div>
+    `;
 
-            awardHTML += groupHTML;
-            profilediv.innerHTML = awardHTML;
-          });
-      }
-    });
+    for (const award of item.awards) {
+      groupHTML += `
+        <div class="p_award">${award.name}</div>
+      `;
+    }
+
+    groupHTML += `</div>`;
+    awardHTML += groupHTML;
+  }
+
+  profilediv.innerHTML = awardHTML;
 }
 
 loadAll();
